@@ -21,7 +21,7 @@ import pygame as pg
 
 WIDTH = 1100  # ゲームウィンドウの幅
 HEIGHT = 650  # ゲームウィンドウの高さ
-BOSS_SCORE = 700  # ボス戦に切り替わるスコア
+BOSS_SCORE = 300  # ボス戦に切り替わるスコア
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # ===== 【中川】ボス戦の定数はここに書く =====
@@ -58,7 +58,7 @@ ZIGZAG_SPEED = 0.05
 CHASE_SPEED = 5
 TANK_HP = 3
 SPAWN_INTERVALS = [200, 150, 100]
-SPAWN_SCORES = [0, 100, 300]
+SPAWN_SCORES = [0, 80, 150]
 FIRE_INTERVALS = [200, 150, 100]  
 BOMB_SPEEDS = [6, 8, 10]  
 
